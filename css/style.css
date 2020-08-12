@@ -55,11 +55,11 @@ body{
 }
 
 .empty:hover{
-	outline: 0;
+	outline-style: none;
 }
 
 .empty:focus{
-	outline: 0;
+	outline-style: none;
 }
 
 .number, .operator{
@@ -72,11 +72,11 @@ body{
 .number:hover, .operator:hover{
 	font-weight: bold;
 	font-size: 13px;
-	outline: 0;
+	outline-style: none;
 }
 
 .number:focus, .number:focus{
-	outline: 0;
+	outline-style: none;
 }
 
 #clear{
